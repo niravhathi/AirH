@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E28DA4814447A55B96CA263 /* Pods_AirHAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE18E942CFD159D6CA3DF65 /* Pods_AirHAssignmentTests.framework */; };
+		7324ABD251FD9DF0BDE3FD59 /* Pods_AirHAssignment_AirHAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAC7F90E1676B11A70C2C38 /* Pods_AirHAssignment_AirHAssignmentUITests.framework */; };
+		896877602713F37800C2C056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8968775F2713F37800C2C056 /* AppDelegate.swift */; };
+		896877622713F37800C2C056 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877612713F37800C2C056 /* SceneDelegate.swift */; };
+		896877642713F37800C2C056 /* DutyScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877632713F37800C2C056 /* DutyScheduleViewController.swift */; };
+		896877672713F37800C2C056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896877652713F37800C2C056 /* Main.storyboard */; };
+		8968776C2713F37D00C2C056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8968776B2713F37D00C2C056 /* Assets.xcassets */; };
+		8968776F2713F37D00C2C056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8968776D2713F37D00C2C056 /* LaunchScreen.storyboard */; };
+		8968777A2713F37E00C2C056 /* AirHAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877792713F37E00C2C056 /* AirHAssignmentTests.swift */; };
+		896877852713F37E00C2C056 /* AirHAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877842713F37E00C2C056 /* AirHAssignmentUITests.swift */; };
+		8968779E2713F72500C2C056 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8968779D2713F6D600C2C056 /* UIViewExtension.swift */; };
+		896877A22713FE8500C2C056 /* ClientAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877A12713FE8500C2C056 /* ClientAPIManager.swift */; };
+		896877A42713FE9500C2C056 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877A32713FE9500C2C056 /* NetworkManager.swift */; };
+		896877A62713FEAF00C2C056 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877A52713FEAF00C2C056 /* DatabaseManager.swift */; };
+		896877A82713FF3C00C2C056 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877A72713FF3C00C2C056 /* Constants.swift */; };
+		896877AB2714018500C2C056 /* DutyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896877A92714018500C2C056 /* DutyTableViewCell.swift */; };
+		896877AC2714018500C2C056 /* DutyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 896877AA2714018500C2C056 /* DutyTableViewCell.xib */; };
+		89DC3B0327140CE100B7B07E /* Duties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC3B0127140CE100B7B07E /* Duties.swift */; };
+		89DC3B0427140CE100B7B07E /* Duty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC3B0227140CE100B7B07E /* Duty.swift */; };
+		89DC3B062714115500B7B07E /* DutyScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DC3B052714115500B7B07E /* DutyScheduleViewModel.swift */; };
+		89EACD1927146FEF00BFFA28 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EACD1827146FEF00BFFA28 /* DetailsViewController.swift */; };
+		89EACD1C2714707000BFFA28 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EACD1A2714707000BFFA28 /* DetailsTableViewCell.swift */; };
+		89EACD1D2714707000BFFA28 /* DetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89EACD1B2714707000BFFA28 /* DetailsTableViewCell.xib */; };
+		D8E3D00EBBBA192C2F421D23 /* Pods_AirHAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A947A67F00F8FBED7DDC79F8 /* Pods_AirHAssignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		896877762713F37E00C2C056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896877542713F37800C2C056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8968775B2713F37800C2C056;
+			remoteInfo = AirHAssignment;
+		};
+		896877812713F37E00C2C056 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 896877542713F37800C2C056 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8968775B2713F37800C2C056;
+			remoteInfo = AirHAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD165390AAAB3AB08F61CAA /* Pods-AirHAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-AirHAssignmentTests/Pods-AirHAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CE2F6B0209B269CE2FE6D27 /* Pods-AirHAssignment-AirHAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHAssignment-AirHAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-AirHAssignment-AirHAssignmentUITests/Pods-AirHAssignment-AirHAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FC457E269FCC25B69451111 /* Pods-AirHAssignment-AirHAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHAssignment-AirHAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-AirHAssignment-AirHAssignmentUITests/Pods-AirHAssignment-AirHAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8968775C2713F37800C2C056 /* AirHAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirHAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8968775F2713F37800C2C056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		896877612713F37800C2C056 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		896877632713F37800C2C056 /* DutyScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyScheduleViewController.swift; sourceTree = "<group>"; };
+		896877662713F37800C2C056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8968776B2713F37D00C2C056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8968776E2713F37D00C2C056 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		896877702713F37D00C2C056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896877752713F37E00C2C056 /* AirHAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirHAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		896877792713F37E00C2C056 /* AirHAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirHAssignmentTests.swift; sourceTree = "<group>"; };
+		8968777B2713F37E00C2C056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		896877802713F37E00C2C056 /* AirHAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirHAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		896877842713F37E00C2C056 /* AirHAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirHAssignmentUITests.swift; sourceTree = "<group>"; };
+		896877862713F37E00C2C056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8968779D2713F6D600C2C056 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		896877A12713FE8500C2C056 /* ClientAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientAPIManager.swift; sourceTree = "<group>"; };
+		896877A32713FE9500C2C056 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		896877A52713FEAF00C2C056 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		896877A72713FF3C00C2C056 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		896877A92714018500C2C056 /* DutyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyTableViewCell.swift; sourceTree = "<group>"; };
+		896877AA2714018500C2C056 /* DutyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DutyTableViewCell.xib; sourceTree = "<group>"; };
+		89DC3B0127140CE100B7B07E /* Duties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duties.swift; sourceTree = "<group>"; };
+		89DC3B0227140CE100B7B07E /* Duty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duty.swift; sourceTree = "<group>"; };
+		89DC3B052714115500B7B07E /* DutyScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyScheduleViewModel.swift; sourceTree = "<group>"; };
+		89EACD1827146FEF00BFFA28 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		89EACD1A2714707000BFFA28 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		89EACD1B2714707000BFFA28 /* DetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsTableViewCell.xib; sourceTree = "<group>"; };
+		A947A67F00F8FBED7DDC79F8 /* Pods_AirHAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirHAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B070B5B88BDF52A08228D639 /* Pods-AirHAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-AirHAssignmentTests/Pods-AirHAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0A32DA5A5276C088C138EF9 /* Pods-AirHAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHAssignment.release.xcconfig"; path = "Target Support Files/Pods-AirHAssignment/Pods-AirHAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		D75C4BF5E6B37A269066F5BC /* Pods-AirHAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHAssignment.debug.xcconfig"; path = "Target Support Files/Pods-AirHAssignment/Pods-AirHAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE18E942CFD159D6CA3DF65 /* Pods_AirHAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirHAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAC7F90E1676B11A70C2C38 /* Pods_AirHAssignment_AirHAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirHAssignment_AirHAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		896877592713F37800C2C056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E3D00EBBBA192C2F421D23 /* Pods_AirHAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896877722713F37E00C2C056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E28DA4814447A55B96CA263 /* Pods_AirHAssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8968777D2713F37E00C2C056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7324ABD251FD9DF0BDE3FD59 /* Pods_AirHAssignment_AirHAssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		896877532713F37800C2C056 = {
+			isa = PBXGroup;
+			children = (
+				8968775E2713F37800C2C056 /* AirHAssignment */,
+				896877782713F37E00C2C056 /* AirHAssignmentTests */,
+				896877832713F37E00C2C056 /* AirHAssignmentUITests */,
+				8968775D2713F37800C2C056 /* Products */,
+				A2B2F3395A49D25A89A7324C /* Pods */,
+				FBE89B8C7565A99FD775B496 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8968775D2713F37800C2C056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8968775C2713F37800C2C056 /* AirHAssignment.app */,
+				896877752713F37E00C2C056 /* AirHAssignmentTests.xctest */,
+				896877802713F37E00C2C056 /* AirHAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8968775E2713F37800C2C056 /* AirHAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				8968779C2713F6CA00C2C056 /* Extensions */,
+				8968779A2713F57F00C2C056 /* Constants */,
+				896877992713F57700C2C056 /* Services */,
+				896877982713F56D00C2C056 /* Cells */,
+				896877972713F56300C2C056 /* Controllers */,
+				896877962713F55A00C2C056 /* Resources */,
+				896877952713F54F00C2C056 /* AppDelegate */,
+				896877942713F54400C2C056 /* UserInterface */,
+				896877932713F52800C2C056 /* VIewModel */,
+				896877922713F51F00C2C056 /* Model */,
+				896877702713F37D00C2C056 /* Info.plist */,
+			);
+			path = AirHAssignment;
+			sourceTree = "<group>";
+		};
+		896877782713F37E00C2C056 /* AirHAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				896877792713F37E00C2C056 /* AirHAssignmentTests.swift */,
+				8968777B2713F37E00C2C056 /* Info.plist */,
+			);
+			path = AirHAssignmentTests;
+			sourceTree = "<group>";
+		};
+		896877832713F37E00C2C056 /* AirHAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				896877842713F37E00C2C056 /* AirHAssignmentUITests.swift */,
+				896877862713F37E00C2C056 /* Info.plist */,
+			);
+			path = AirHAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		896877922713F51F00C2C056 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89DC3B0127140CE100B7B07E /* Duties.swift */,
+				89DC3B0227140CE100B7B07E /* Duty.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		896877932713F52800C2C056 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				89DC3B052714115500B7B07E /* DutyScheduleViewModel.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		896877942713F54400C2C056 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				8968776D2713F37D00C2C056 /* LaunchScreen.storyboard */,
+				896877652713F37800C2C056 /* Main.storyboard */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		896877952713F54F00C2C056 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8968775F2713F37800C2C056 /* AppDelegate.swift */,
+				896877612713F37800C2C056 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		896877962713F55A00C2C056 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8968776B2713F37D00C2C056 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		896877972713F56300C2C056 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				896877632713F37800C2C056 /* DutyScheduleViewController.swift */,
+				89EACD1827146FEF00BFFA28 /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		896877982713F56D00C2C056 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				89EACD1A2714707000BFFA28 /* DetailsTableViewCell.swift */,
+				89EACD1B2714707000BFFA28 /* DetailsTableViewCell.xib */,
+				896877A92714018500C2C056 /* DutyTableViewCell.swift */,
+				896877AA2714018500C2C056 /* DutyTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		896877992713F57700C2C056 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				896877A52713FEAF00C2C056 /* DatabaseManager.swift */,
+				896877A32713FE9500C2C056 /* NetworkManager.swift */,
+				896877A12713FE8500C2C056 /* ClientAPIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8968779A2713F57F00C2C056 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				896877A72713FF3C00C2C056 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8968779C2713F6CA00C2C056 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8968779D2713F6D600C2C056 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A2B2F3395A49D25A89A7324C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D75C4BF5E6B37A269066F5BC /* Pods-AirHAssignment.debug.xcconfig */,
+				B0A32DA5A5276C088C138EF9 /* Pods-AirHAssignment.release.xcconfig */,
+				5FC457E269FCC25B69451111 /* Pods-AirHAssignment-AirHAssignmentUITests.debug.xcconfig */,
+				2CE2F6B0209B269CE2FE6D27 /* Pods-AirHAssignment-AirHAssignmentUITests.release.xcconfig */,
+				0AD165390AAAB3AB08F61CAA /* Pods-AirHAssignmentTests.debug.xcconfig */,
+				B070B5B88BDF52A08228D639 /* Pods-AirHAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBE89B8C7565A99FD775B496 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A947A67F00F8FBED7DDC79F8 /* Pods_AirHAssignment.framework */,
+				FBAC7F90E1676B11A70C2C38 /* Pods_AirHAssignment_AirHAssignmentUITests.framework */,
+				DCE18E942CFD159D6CA3DF65 /* Pods_AirHAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8968775B2713F37800C2C056 /* AirHAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896877892713F37E00C2C056 /* Build configuration list for PBXNativeTarget "AirHAssignment" */;
+			buildPhases = (
+				CF873709CF3813AA7BD2C2EE /* [CP] Check Pods Manifest.lock */,
+				896877582713F37800C2C056 /* Sources */,
+				896877592713F37800C2C056 /* Frameworks */,
+				8968775A2713F37800C2C056 /* Resources */,
+				6EE90E1BAF6D1F68B27051BF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirHAssignment;
+			productName = AirHAssignment;
+			productReference = 8968775C2713F37800C2C056 /* AirHAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		896877742713F37E00C2C056 /* AirHAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8968778C2713F37E00C2C056 /* Build configuration list for PBXNativeTarget "AirHAssignmentTests" */;
+			buildPhases = (
+				C2EF274052EEA1D768F1C643 /* [CP] Check Pods Manifest.lock */,
+				896877712713F37E00C2C056 /* Sources */,
+				896877722713F37E00C2C056 /* Frameworks */,
+				896877732713F37E00C2C056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				896877772713F37E00C2C056 /* PBXTargetDependency */,
+			);
+			name = AirHAssignmentTests;
+			productName = AirHAssignmentTests;
+			productReference = 896877752713F37E00C2C056 /* AirHAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8968777F2713F37E00C2C056 /* AirHAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8968778F2713F37E00C2C056 /* Build configuration list for PBXNativeTarget "AirHAssignmentUITests" */;
+			buildPhases = (
+				7C1147D0F96CFCB385F74CAC /* [CP] Check Pods Manifest.lock */,
+				8968777C2713F37E00C2C056 /* Sources */,
+				8968777D2713F37E00C2C056 /* Frameworks */,
+				8968777E2713F37E00C2C056 /* Resources */,
+				A52FF76E439B607A15FB666C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				896877822713F37E00C2C056 /* PBXTargetDependency */,
+			);
+			name = AirHAssignmentUITests;
+			productName = AirHAssignmentUITests;
+			productReference = 896877802713F37E00C2C056 /* AirHAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		896877542713F37800C2C056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8968775B2713F37800C2C056 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					896877742713F37E00C2C056 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8968775B2713F37800C2C056;
+					};
+					8968777F2713F37E00C2C056 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8968775B2713F37800C2C056;
+					};
+				};
+			};
+			buildConfigurationList = 896877572713F37800C2C056 /* Build configuration list for PBXProject "AirHAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 896877532713F37800C2C056;
+			productRefGroup = 8968775D2713F37800C2C056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8968775B2713F37800C2C056 /* AirHAssignment */,
+				896877742713F37E00C2C056 /* AirHAssignmentTests */,
+				8968777F2713F37E00C2C056 /* AirHAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8968775A2713F37800C2C056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EACD1D2714707000BFFA28 /* DetailsTableViewCell.xib in Resources */,
+				8968776F2713F37D00C2C056 /* LaunchScreen.storyboard in Resources */,
+				8968776C2713F37D00C2C056 /* Assets.xcassets in Resources */,
+				896877672713F37800C2C056 /* Main.storyboard in Resources */,
+				896877AC2714018500C2C056 /* DutyTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896877732713F37E00C2C056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8968777E2713F37E00C2C056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EE90E1BAF6D1F68B27051BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirHAssignment/Pods-AirHAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirHAssignment/Pods-AirHAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirHAssignment/Pods-AirHAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C1147D0F96CFCB385F74CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirHAssignment-AirHAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A52FF76E439B607A15FB666C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirHAssignment-AirHAssignmentUITests/Pods-AirHAssignment-AirHAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirHAssignment-AirHAssignmentUITests/Pods-AirHAssignment-AirHAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirHAssignment-AirHAssignmentUITests/Pods-AirHAssignment-AirHAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2EF274052EEA1D768F1C643 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirHAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF873709CF3813AA7BD2C2EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirHAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		896877582713F37800C2C056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896877AB2714018500C2C056 /* DutyTableViewCell.swift in Sources */,
+				8968779E2713F72500C2C056 /* UIViewExtension.swift in Sources */,
+				896877642713F37800C2C056 /* DutyScheduleViewController.swift in Sources */,
+				896877A42713FE9500C2C056 /* NetworkManager.swift in Sources */,
+				896877A82713FF3C00C2C056 /* Constants.swift in Sources */,
+				89DC3B062714115500B7B07E /* DutyScheduleViewModel.swift in Sources */,
+				89EACD1C2714707000BFFA28 /* DetailsTableViewCell.swift in Sources */,
+				896877602713F37800C2C056 /* AppDelegate.swift in Sources */,
+				89DC3B0427140CE100B7B07E /* Duty.swift in Sources */,
+				89DC3B0327140CE100B7B07E /* Duties.swift in Sources */,
+				896877622713F37800C2C056 /* SceneDelegate.swift in Sources */,
+				896877A22713FE8500C2C056 /* ClientAPIManager.swift in Sources */,
+				89EACD1927146FEF00BFFA28 /* DetailsViewController.swift in Sources */,
+				896877A62713FEAF00C2C056 /* DatabaseManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		896877712713F37E00C2C056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8968777A2713F37E00C2C056 /* AirHAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8968777C2713F37E00C2C056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896877852713F37E00C2C056 /* AirHAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		896877772713F37E00C2C056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8968775B2713F37800C2C056 /* AirHAssignment */;
+			targetProxy = 896877762713F37E00C2C056 /* PBXContainerItemProxy */;
+		};
+		896877822713F37E00C2C056 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8968775B2713F37800C2C056 /* AirHAssignment */;
+			targetProxy = 896877812713F37E00C2C056 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		896877652713F37800C2C056 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896877662713F37800C2C056 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8968776D2713F37D00C2C056 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8968776E2713F37D00C2C056 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		896877872713F37E00C2C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		896877882713F37E00C2C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8968778A2713F37E00C2C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75C4BF5E6B37A269066F5BC /* Pods-AirHAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirHAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.AirHAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8968778B2713F37E00C2C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A32DA5A5276C088C138EF9 /* Pods-AirHAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirHAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.AirHAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8968778D2713F37E00C2C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD165390AAAB3AB08F61CAA /* Pods-AirHAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirHAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.AirHAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirHAssignment.app/AirHAssignment";
+			};
+			name = Debug;
+		};
+		8968778E2713F37E00C2C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B070B5B88BDF52A08228D639 /* Pods-AirHAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirHAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.AirHAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirHAssignment.app/AirHAssignment";
+			};
+			name = Release;
+		};
+		896877902713F37E00C2C056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC457E269FCC25B69451111 /* Pods-AirHAssignment-AirHAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirHAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.AirHAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirHAssignment;
+			};
+			name = Debug;
+		};
+		896877912713F37E00C2C056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE2F6B0209B269CE2FE6D27 /* Pods-AirHAssignment-AirHAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirHAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.AirHAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirHAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		896877572713F37800C2C056 /* Build configuration list for PBXProject "AirHAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896877872713F37E00C2C056 /* Debug */,
+				896877882713F37E00C2C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896877892713F37E00C2C056 /* Build configuration list for PBXNativeTarget "AirHAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8968778A2713F37E00C2C056 /* Debug */,
+				8968778B2713F37E00C2C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8968778C2713F37E00C2C056 /* Build configuration list for PBXNativeTarget "AirHAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8968778D2713F37E00C2C056 /* Debug */,
+				8968778E2713F37E00C2C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8968778F2713F37E00C2C056 /* Build configuration list for PBXNativeTarget "AirHAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896877902713F37E00C2C056 /* Debug */,
+				896877912713F37E00C2C056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 896877542713F37800C2C056 /* Project object */;
+}
